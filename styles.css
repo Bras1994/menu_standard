@@ -1,0 +1,92 @@
+#body{
+    background-color: #f8f9fa;
+}
+
+.container-fluid{
+    background-color: #a1a1a1;
+}
+
+.navbar-brand{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: 0 0 auto;
+}
+
+.text-center{
+    
+}
+
+h2{
+    font-size:35px;
+    
+}
+
+img{
+    width: auto;
+    height: 40px;
+    align-items: center;
+}
+
+.text-center{
+    padding-top: 1em;
+}
+
+.blockquote{
+    padding-top: .5em;
+}
+
+
+.fab, .fas{
+    align-items: center;
+    padding: 1em 2em;
+    font-size: 30px;
+    color: #212529;
+}
+
+a{
+    color: #212529;
+}
+
+#footer{
+    background-color: #a1a1a1;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+    @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+        /* iPhone only */
+        /* Styles */
+    
+
+        .col-4{
+            align-items: center;
+        }
+        .navbar-brand{
+            font-size: 25px;
+        }
+      h2{
+          font-size: 20px;
+      }
+    
+      .blockquote{
+          font-size: .75rem;
+      }
+      ..blockquote-footer{
+          font-size: .5em;
+      }
+      
+      #footer{
+          padding-top: 10px;
+          max-width: 100%;
+
+      }
+      
+      }
+
